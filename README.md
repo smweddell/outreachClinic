@@ -4,6 +4,8 @@
 
 ## ***Clients: Mary Ann Elting, Andrea Copeland, and Todd Shelton***
 
+###### This project was built using HTML, CSS, Javascript, jQuery, and structuring the website as an MVC.
+
 ###### Home Page (Services Page):
 Shows the services the different partners offer at the clinic.
 
