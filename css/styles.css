@@ -105,5 +105,238 @@ footer {
 /* Partners Page Styling */
 
 /* About Us Page Styling */
+/* Info about the Clinic Styling */
+.info {
+  height: 700px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-title {
+  font-size: 70px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.about-Info {
+  width: 100%;
+  height: 230px;
+  padding: 0 50px 0 50px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* FAQ Accordion Styling */
+.accordion-title {
+  height: 50px;
+  width: 900px;
+  padding: 5px 10px 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #990000;
+  color: #fff;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+/* displays the plus symbol when one of the accordions is not active */
+.accordion-title:after {
+  /* Unicode character for "plus" sign (+) */
+  content: "\002B"; 
+  font-size: 20px;
+  color: #fff;
+}
+
+/* displays the minus symbol when one of the accordions is active */
+.active:after {
+  /* Unicode character for "minus" sign (-) */
+  content: "\2212"; 
+}
+
+/* If one of the accordions is active it will change the original color into the hover color until it is inactive */
+.active,
+.accordion-title:hover {
+  background-color: #000;
+}
+
+.accordion-content {
+  width: 900px;
+  padding: 0 10px 0 10px;
+  background-color: #eeedeb;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.accordion-content p{
+    margin-top: 5px;
+}
+
+/* Clinic News Styling */
+.news {
+  height: 1500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #990000;
+}
+
+.news-title {
+  font-size: 70px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+/* First row styling for newsletters and podcast */
+.row {
+  height: 200px;
+  width: 1400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.half {
+  height: 100%;
+  width: 620px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.more-title {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #990000;
+}
+
+.more-btn {
+  width: 300px;
+  height: 50px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  background-color: #990000;
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+}
+
+/* Second row styling for any articles */
+.row2 {
+  height: 400px;
+  width: 1400px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* Third row styling for any articles */
+.row3 {
+  height: 400px;
+  width: 1400px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+/* Styling for each article section */
+.square {
+  height: 100%;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.article-title {
+  font-size: 50px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #990000;
+}
+
+.read-btn {
+  width: 200px;
+  height: 50px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  background-color: #990000;
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+}
+
+/* Patient Stories Styling */
+.stories {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeedeb;
+}
+
+.story-title {
+  font-size: 70px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.story {
+  height: 80px;
+  width: 1300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Research Styling */
+.research {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.research-title {
+  font-size: 70px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.research-Info {
+  width: 100%;
+  height: 200px;
+  padding: 0 50px 0 50px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
 
 /* Donate Page Styling */
