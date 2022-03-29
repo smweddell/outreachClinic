@@ -102,6 +102,78 @@ footer {
 
 /* Volunteer Page Styling */
 
+.volunteer-title {
+  font-size: 70px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-align: center;
+}
+/* Styling for the odd rows on the Volunteer page */
+.odd {
+  background: #990000;
+  height: 600px;
+  width: 100%;
+  margin-bottom: 0px;
+}
+
+.image-left {
+  width: 46%;
+  height: 480px;
+}
+
+.header-right {
+  margin-left: 46%;
+  text-align: center;
+  margin-bottom: 50%;
+  margin-top: -20%;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+.text-right {
+  margin-left: 46%;
+  text-align: center;
+  margin-bottom: 50%;
+  margin-top: -49%;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+}
+/* Styling for the even rows on the Volunteer page */
+
+.even {
+  background: #ffffff;
+  height: 600px;
+  width: 100%;
+  margin-top: -120px;
+}
+
+.image-right {
+  height: 600px;
+  width: 54%;
+  margin-left: 50%;
+}
+.header-left {
+  margin-right: 50%;
+  text-align: center;
+  margin-bottom: 50%;
+  margin-top: -20%;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  color: #990000;
+}
+
+.text-left {
+  margin-right: 50%;
+  text-align: center;
+  margin-bottom: 50%;
+  margin-top: -49%;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+  color: #990000;
+}
+
 /* Partners Page Styling */
 
 /* About Us Page Styling */
@@ -149,7 +221,7 @@ footer {
 /* displays the plus symbol when one of the accordions is not active */
 .accordion-title:after {
   /* Unicode character for "plus" sign (+) */
-  content: "\002B"; 
+  content: "\002B";
   font-size: 20px;
   color: #fff;
 }
@@ -157,7 +229,7 @@ footer {
 /* displays the minus symbol when one of the accordions is active */
 .active:after {
   /* Unicode character for "minus" sign (-) */
-  content: "\2212"; 
+  content: "\2212";
 }
 
 /* If one of the accordions is active it will change the original color into the hover color until it is inactive */
@@ -175,8 +247,8 @@ footer {
   transition: max-height 0.2s ease-out;
 }
 
-.accordion-content p{
-    margin-top: 5px;
+.accordion-content p {
+  margin-top: 5px;
 }
 
 /* Clinic News Styling */
