@@ -101,77 +101,114 @@ footer {
 /* Home Page Styling */
 
 /* Volunteer Page Styling */
-
 .volunteer-title {
   font-size: 70px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  margin-bottom: 50px;
+  margin: 50px 0 50px 0;
   text-align: center;
 }
+
 /* Styling for the odd rows on the Volunteer page */
+
+/* Use display flex, align items, and justify content to help position content on the page instead of using margin. These three things help make positioning much easier on the page.
+
+I also made a few adjustments to the info section by adding padding to give the text some space from the image and the side of the browser. Plus, I added a margin bottom for the text so they appear separate from each other.
+*/
 .odd {
-  background: #990000;
+  background-color: #990000;
   height: 600px;
   width: 100%;
-  margin-bottom: 0px;
+  display: flex;
+  flex-direction: row;
 }
 
 .image-left {
-  width: 46%;
-  height: 480px;
+  width: 900px;
+  height: 100%;
+}
+
+.volunteer-info-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .header-right {
-  margin-left: 46%;
+  margin-bottom: 50px;
   text-align: center;
-  margin-bottom: 50%;
-  margin-top: -20%;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
 }
 .text-right {
-  margin-left: 46%;
-  text-align: center;
-  margin-bottom: 50%;
-  margin-top: -49%;
+  padding: 0 30px 0 50px;
+  margin-bottom: 50px;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
 }
-/* Styling for the even rows on the Volunteer page */
 
+.right-btn {
+  width: 250px;
+  height: 57px;
+  background-color: #fff;
+  color: #990000;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-radius: 50px;
+}
+
+/* Styling for the even rows on the Volunteer page */
 .even {
-  background: #ffffff;
+  background-color: #ffffff;
   height: 600px;
   width: 100%;
-  margin-top: -120px;
+  display: flex;
+  flex-direction: row;
 }
 
 .image-right {
-  height: 600px;
-  width: 54%;
-  margin-left: 50%;
+  width: 900px;
+  height: 100%;
 }
+
+.volunteer-info-left {
+  padding: 0 30px 0 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .header-left {
-  margin-right: 50%;
+  margin-bottom: 50px;
   text-align: center;
-  margin-bottom: 50%;
-  margin-top: -20%;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
   color: #990000;
 }
 
 .text-left {
-  margin-right: 50%;
-  text-align: center;
-  margin-bottom: 50%;
-  margin-top: -49%;
+  margin-bottom: 50px;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
   color: #990000;
+}
+
+.left-btn {
+  width: 250px;
+  height: 57px;
+  background-color: #990000;
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  border-radius: 50px;
 }
 
 /* Partners Page Styling */
