@@ -216,7 +216,7 @@ I also made a few adjustments to the info section by adding padding to give the 
 /* About Us Page Styling */
 /* Info about the Clinic Styling */
 .info {
-  height: 700px;
+  height: 800px;
   width: 100%;
   display: flex;
   flex-direction: column;
