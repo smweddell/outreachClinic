@@ -470,7 +470,7 @@ I also made a few adjustments to the info section by adding padding to give the 
 
 /* Second row styling for any articles */
 .row2 {
-  height: 400px;
+  height: 300px;
   width: 1400px;
   margin-top: 50px;
   display: flex;
@@ -480,7 +480,7 @@ I also made a few adjustments to the info section by adding padding to give the 
 
 /* Third row styling for any articles */
 .row3 {
-  height: 400px;
+  height: 200px;
   width: 1400px;
   margin-top: 50px;
   display: flex;
@@ -500,10 +500,11 @@ I also made a few adjustments to the info section by adding padding to give the 
 }
 
 .article-title {
-  font-size: 50px;
+  font-size: 30px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   color: #990000;
+  padding: 0 20px 0 20px;
 }
 
 .read-btn {

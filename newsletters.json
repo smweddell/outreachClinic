@@ -1,0 +1,58 @@
+{
+  "year": [
+    {
+      "2022": {
+        "newsletters": [
+          { "month": "January", "link": "January newsletter" },
+          { "month": "February", "link": "February newsletter" },
+          { "month": "March", "link": "March newsletter" },
+          { "month": "April", "link": "April newsletter" },
+          { "month": "May", "link": "May newsletter" },
+          { "month": "June", "link": "June newsletter" },
+          { "month": "July", "link": "July newsletter" },
+          { "month": "August", "link": "August newsletter" },
+          { "month": "September", "link": "September newsletter" },
+          { "month": "October", "link": "October newsletter" },
+          { "month": "November", "link": "November newsletter" },
+          { "month": "December", "link": "December newsletter" }
+        ]
+      }
+    },
+    {
+      "2023": {
+        "newsletters": [
+          { "month": "January", "link": "January newsletter" },
+          { "month": "February", "link": "February newsletter" },
+          { "month": "March", "link": "March newsletter" },
+          { "month": "April", "link": "April newsletter" },
+          { "month": "May", "link": "May newsletter" },
+          { "month": "June", "link": "June newsletter" },
+          { "month": "July", "link": "July newsletter" },
+          { "month": "August", "link": "August newsletter" },
+          { "month": "September", "link": "September newsletter" },
+          { "month": "October", "link": "October newsletter" },
+          { "month": "November", "link": "November newsletter" },
+          { "month": "December", "link": "December newsletter" }
+        ]
+      }
+    },
+    {
+      "2024": {
+        "newsletters": [
+          { "month": "January", "link": "January newsletter" },
+          { "month": "February", "link": "February newsletter" },
+          { "month": "March", "link": "March newsletter" },
+          { "month": "April", "link": "April newsletter" },
+          { "month": "May", "link": "May newsletter" },
+          { "month": "June", "link": "June newsletter" },
+          { "month": "July", "link": "July newsletter" },
+          { "month": "August", "link": "August newsletter" },
+          { "month": "September", "link": "September newsletter" },
+          { "month": "October", "link": "October newsletter" },
+          { "month": "November", "link": "November newsletter" },
+          { "month": "December", "link": "December newsletter" }
+        ]
+      }
+    }
+  ]
+}
