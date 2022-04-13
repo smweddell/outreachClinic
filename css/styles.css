@@ -150,20 +150,21 @@ footer {
 }
 
 .visit-us {
-  height: 980px;
+  height: 700px;
   width: 100%;
   background-color: #EEEDEB;
   display: flex;
+  align-items: center;
   justify-content: center;
   align-items: center;
 }
 
 .visitus-division-sector {
-  height: 800px;
+  height: 600px;
   width: 1770px;
   display: flex;
   flex-direction: row;
-  padding: 0 75px 0 75px;
+  justify-content: space-evenly;
 }
 
 .visitus-header {
@@ -175,7 +176,7 @@ footer {
 
 .visitus-pi {
   font-family: "Roboto", sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: bold;
 }
 
