@@ -292,7 +292,6 @@ I also made a few adjustments to the info section by adding padding to give the 
 }
 
 /* Partners Page Styling */
-
 .partners-content {
   width: 100%;
   height: auto;
@@ -409,7 +408,7 @@ I also made a few adjustments to the info section by adding padding to give the 
 
 /* Clinic News Styling */
 .news {
-  height: 1500px;
+  height: 1100px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -476,7 +475,7 @@ I also made a few adjustments to the info section by adding padding to give the 
 
 /* Third row styling for any articles */
 .row3 {
-  height: 200px;
+  height: 300px;
   width: 1400px;
   margin-top: 50px;
   display: flex;
