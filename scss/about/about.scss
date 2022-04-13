@@ -1,0 +1,24 @@
+// About Us Info Section
+.info {
+  height: 800px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .about-title {
+    font-size: 70px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    margin-bottom: 50px;
+  }
+
+  .about-Info {
+    width: 100%;
+    height: 230px;
+    padding: 0 50px 0 50px;
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+  }
+}
