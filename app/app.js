@@ -16,12 +16,38 @@
 //   });
 // }
 
+import * as MODEL from '../model/model.js'
+
+// function pageID() {
+//   let btnID = this.id;
+//   let hashName = location.hash;
+//   let pageName = hashName.replace('#', btnID)
+//   model.getContent(btnID);
+//   console.log(btnID);
+// } 
+
 // Controller - Gets data based on Listener
 function initlisteners() {
-  $("#nav .links a").click(function (e) {
-    var btnID = this.id;
+  $("nav a").click(function (e) {
+    let btnID = this.id;
     MODEL.getContent(btnID);
+    console.log(btnID);
   });
+}
+
+function partnerListeners() {
+  // $(".odd a").click(function (e) {
+  //   e.stopPropagation();
+  //   e.preventDefault();
+  //   let btn = $(this).attr('href');;
+  //   MODEL.getPartners(btn);
+  //   console.log(btn);
+  //   // callback(btn);
+  // });
+
+  $("#iuMed").on('click', function() {
+    console.log("IU Med Page");
+  })
 }
 
 function initPage() {
@@ -32,8 +58,14 @@ function initPage() {
 
   $.get("view/home/home.html", function (data) {
     $("#app").html(data);
-    // accordion();
+  // partnerListeners();
+
   });
+
+  // $.get("view/partners/iuMed.html", function (data) {
+  //   $("#app").html(data);
+  //   partnerListeners();
+  // });
 
   $.get("view/footer.html", function (data) {
     $("#footer").html(data);
@@ -42,4 +74,5 @@ function initPage() {
 
 $(document).ready(function () {
   initPage();
+  // accordion();
 });

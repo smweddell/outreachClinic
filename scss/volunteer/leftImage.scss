@@ -1,7 +1,7 @@
 // Styling for images that are positioned on the left side of the webpage
 // Content on the right
 .odd {
-  background-color: #990000;
+  background-color: $red;
   height: 600px;
   width: 100%;
   display: flex;
@@ -23,26 +23,39 @@
     margin-bottom: 50px;
     text-align: center;
     font-size: 30px;
-    font-family: "Roboto", sans-serif;
-    color: #ffffff;
+    font-family: $font;
+    color: $white;
   }
+
   .text-right {
     padding: 0 30px 0 50px;
     margin-bottom: 50px;
     font-size: 30px;
-    font-family: "Roboto", sans-serif;
-    color: #ffffff;
+    font-family: $font;
+    color: $white;
   }
 
   .right-btn {
     width: 250px;
     height: 57px;
-    background-color: #fff;
-    color: #990000;
+    background-color: $white;
+    color: $red;
     font-size: 40px;
     font-weight: bold;
-    font-family: "Roboto", sans-serif;
+    font-family: $font;
     border: none;
     border-radius: 50px;
+  }
+
+  .socialmedia-right {
+    width: 190px;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+    .fa-inverse {
+      color: $white;
+    }
   }
 }

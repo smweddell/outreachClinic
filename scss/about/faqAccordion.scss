@@ -1,16 +1,16 @@
 // FAQ Accordion Section
 .accordion-title {
   height: 50px;
-  width: 900px;
+  width: 100%;
   padding: 5px 10px 5px 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #990000;
-  color: #fff;
+  background-color: $red;
+  color: $white;
   cursor: pointer;
   font-size: 20px;
-  font-family: "Roboto", sans-serif;
+  font-family: $font;
   font-weight: bold;
 }
 
@@ -19,7 +19,7 @@
   /* Unicode character for "plus" sign (+) */
   content: "\002B";
   font-size: 20px;
-  color: #fff;
+  color: $white;
 }
 
 /* displays the minus symbol when one of the accordions is active */
@@ -31,13 +31,13 @@
 /* If one of the accordions is active it will change the original color into the hover color until it is inactive */
 .active,
 .accordion-title:hover {
-  background-color: #000;
+  background-color: $black;
 }
 
 .accordion-content {
-  width: 900px;
+  width: 100%;
   padding: 0 10px 0 10px;
-  background-color: #eeedeb;
+  background-color: $light-grey;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;

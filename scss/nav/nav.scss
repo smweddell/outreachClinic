@@ -6,7 +6,7 @@ nav {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #990000;
+  background-color: $red;
 
   .clinic-title {
     width: 630px;
@@ -23,16 +23,16 @@ nav {
   }
 
   .name {
-    color: #fff;
-    font-family: "Roboto", sans-serif;
+    color: $white;
+    font-family: $font;
     font-size: 25px;
   }
 
   .links a {
     margin-right: 50px;
     text-decoration: none;
-    color: #fff;
-    font-family: "Roboto", sans-serif;
+    color: $white;
+    font-family: $font;
     font-size: 30px;
     font-weight: bold;
   }
@@ -40,9 +40,9 @@ nav {
   .donateBTN {
     width: 170px;
     height: 50px;
-    background-color: #fff;
-    color: #990000;
-    font-family: "Roboto", sans-serif;
+    background-color: $white;
+    color: $red;
+    font-family: $font;
     font-size: 30px;
     font-weight: bold;
     border-radius: 50px;

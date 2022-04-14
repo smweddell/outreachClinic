@@ -56,14 +56,14 @@ nav .logo {
   margin-right: 20px;
 }
 nav .name {
-  color: #fff;
+  color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-size: 25px;
 }
 nav .links a {
   margin-right: 50px;
   text-decoration: none;
-  color: #fff;
+  color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-size: 30px;
   font-weight: bold;
@@ -71,7 +71,7 @@ nav .links a {
 nav .donateBTN {
   width: 170px;
   height: 50px;
-  background-color: #fff;
+  background-color: #FFFFFF;
   color: #990000;
   font-family: "Roboto", sans-serif;
   font-size: 30px;
@@ -93,7 +93,7 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #990000;
-  color: #fff;
+  color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 40px;
@@ -102,8 +102,8 @@ footer {
 .herobanner {
   width: 100%;
   height: 980px;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.7))), url(../assets/clinic-images/clinic.jpg);
-  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../assets/clinic-images/clinic.jpg);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.7))), url(../../assets/clinic-images/clinic.jpg);
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../../assets/clinic-images/clinic.jpg);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,29 +124,94 @@ footer {
   margin-right: 30px;
 }
 .herobanner .welcometext {
-  color: #000;
+  color: #000000;
   font-family: "Roboto", sans-serif;
   font-size: 70px;
   font-weight: bold;
 }
 
-.servicearray {
+.services {
   width: 100%;
-  height: 100%;
+  height: 1080px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../../assets/clinic-images/clinic-door.png);
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.servicearray .services-heading {
-  color: #000;
+.services .services-title {
+  color: #FFFFFF;
   font-family: "Roboto", sans-serif;
   font-size: 70px;
   font-weight: bold;
-  margin: 83px 0 0 0;
-  text-align: center;
+  margin-bottom: 50px;
+}
+.services .service-offer {
+  width: 1500px;
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.services .service-offer .service-circle {
+  width: 200px;
+  height: 100%;
+  background-color: #FFFFFF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 100px;
+}
+.services .service-offer .service-circle .service-icon {
+  width: 100px;
+  height: 100px;
+}
+.services .service-offer .service-circle .fa-inverse {
+  color: #990000;
+}
+.services .service-offer .service-circle .service-type {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .visit-us {
   height: 700px;
   width: 100%;
-  background-color: #eeedeb;
+  background-color: #EEEDEB;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -185,8 +250,8 @@ footer {
 }
 
 .info {
-  height: 800px;
-  width: 100%;
+  height: 100%;
+  width: 1500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -194,30 +259,134 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 0 50px 0 50px;
 }
 .info .about-title {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin: 50px 0 50px 0;
+}
+.info .about-img-banner {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.info .about-img-banner .about-img {
+  width: 400px;
+  height: 100%;
+}
+.info .about-Info {
+  width: 100%;
+  height: 230px;
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+.info .history-title {
+  text-align: center;
   font-size: 70px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   margin-bottom: 50px;
 }
-.info .about-Info {
+.info .history {
   width: 100%;
-  height: 230px;
-  padding: 0 50px 0 50px;
-  font-size: 30px;
+  height: 400px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.info .history .history-info {
+  width: 1000px;
+  height: 100%;
   font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  padding: 0 50px 0 0;
+}
+.info .history .founders {
+  width: 400px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+.info .history .founders .founder-img {
+  width: 100%;
+  height: 300px;
+}
+.info .impact-title {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.info .impact {
+  width: 100%;
+  height: 150px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+.info .impact .impact-content {
+  width: 400px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #EEEDEB;
+  color: #990000;
+  border-radius: 50px;
+  padding: 20px 20px 20px 20px;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
 }
 
 .accordion-title {
   height: 50px;
-  width: 900px;
+  width: 100%;
   padding: 5px 10px 5px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -229,7 +398,7 @@ footer {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #990000;
-  color: #fff;
+  color: #FFFFFF;
   cursor: pointer;
   font-size: 20px;
   font-family: "Roboto", sans-serif;
@@ -241,7 +410,7 @@ footer {
   /* Unicode character for "plus" sign (+) */
   content: "+";
   font-size: 20px;
-  color: #fff;
+  color: #FFFFFF;
 }
 
 /* displays the minus symbol when one of the accordions is active */
@@ -253,13 +422,13 @@ footer {
 /* If one of the accordions is active it will change the original color into the hover color until it is inactive */
 .active,
 .accordion-title:hover {
-  background-color: #000;
+  background-color: #000000;
 }
 
 .accordion-content {
-  width: 900px;
+  width: 100%;
   padding: 0 10px 0 10px;
-  background-color: #eeedeb;
+  background-color: #EEEDEB;
   max-height: 0;
   overflow: hidden;
   -webkit-transition: max-height 0.2s ease-out;
@@ -296,7 +465,7 @@ footer {
   font-size: 70px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  color: #fff;
+  color: #FFFFFF;
   margin-bottom: 50px;
 }
 .news .row {
@@ -329,7 +498,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #fff;
+  background-color: #FFFFFF;
 }
 .news .more-title {
   font-size: 50px;
@@ -344,7 +513,7 @@ footer {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   background-color: #990000;
-  color: #fff;
+  color: #FFFFFF;
   border-radius: 50px;
   border: none;
 }
@@ -394,7 +563,7 @@ footer {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #fff;
+  background-color: #FFFFFF;
 }
 .news .article-title {
   font-size: 30px;
@@ -410,7 +579,7 @@ footer {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   background-color: #990000;
-  color: #fff;
+  color: #FFFFFF;
   border-radius: 50px;
   border: none;
 }
@@ -431,7 +600,7 @@ footer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #eeedeb;
+  background-color: #EEEDEB;
 }
 .stories .story-title {
   font-size: 70px;
@@ -457,8 +626,9 @@ footer {
 }
 
 .research {
-  height: 400px;
-  width: 100%;
+  height: 100%;
+  width: 1500px;
+  padding: 0 50px 0 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -466,23 +636,37 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin: 0 auto;
 }
 .research .research-title {
+  text-align: center;
   font-size: 70px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+  margin: 50px 0 50px 0;
+}
+.research .research-img-banner {
+  width: 100%;
+  height: 300px;
   margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.research .research-img-banner .research-img {
+  width: 400px;
+  height: 100%;
 }
 .research .research-Info {
   width: 100%;
   height: 200px;
-  padding: 0 50px 0 50px;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
 }
@@ -559,19 +743,19 @@ footer {
   text-align: center;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .odd .text-right {
   padding: 0 30px 0 50px;
   margin-bottom: 50px;
   font-size: 30px;
   font-family: "Roboto", sans-serif;
-  color: #ffffff;
+  color: #FFFFFF;
 }
 .odd .right-btn {
   width: 250px;
   height: 57px;
-  background-color: #fff;
+  background-color: #FFFFFF;
   color: #990000;
   font-size: 40px;
   font-weight: bold;
@@ -579,9 +763,23 @@ footer {
   border: none;
   border-radius: 50px;
 }
+.odd .socialmedia-right {
+  width: 190px;
+  height: 50px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.odd .socialmedia-right .fa-inverse {
+  color: #FFFFFF;
+}
 
 .even {
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   height: 600px;
   width: 100%;
   display: -webkit-box;
@@ -629,12 +827,26 @@ footer {
   width: 250px;
   height: 57px;
   background-color: #990000;
-  color: #fff;
+  color: #FFFFFF;
   font-size: 40px;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
   border: none;
   border-radius: 50px;
+}
+.even .socialmedia-left {
+  width: 190px;
+  height: 50px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.even .socialmedia-left .fa-inverse {
+  color: #990000;
 }
 
 .partners-content {
@@ -681,7 +893,7 @@ footer {
   margin-bottom: 10px;
 }
 .partners-content .partners-btn-txt {
-  color: #fff;
+  color: #FFFFFF;
   font-size: 40px;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
@@ -689,51 +901,70 @@ footer {
 }
 
 .donate-page {
-  width: 100%;
+  height: 100%;
+  width: 1500px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 1.5rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  padding: 0 50px 0 50px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-family: "Roboto", sans-serif;
 }
-
-.donate-page h2 {
-  margin: 0.75rem 0 1.75rem 0;
-  font-size: 2.25rem;
+.donate-page .donate-title {
+  text-align: center;
+  font-size: 70px;
+  font-weight: bold;
+  margin: 50px 0 50px 0;
 }
-
-.content {
+.donate-page .donate-img-banner {
   width: 100%;
-  font-size: 1.25rem;
-  margin-bottom: 1.5rem;
+  height: 300px;
+  margin-bottom: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
-
-#donate-btn {
-  border-radius: 42px;
-  border: 2px solid var(--primary);
-  background-color: var(--primary);
-  color: var(--light);
-  font-size: 1.5rem;
+.donate-page .donate-img-banner .donate-img {
+  width: 400px;
+  height: 100%;
+}
+.donate-page .content {
+  height: 800px;
+  width: 100%;
+  font-size: 30px;
+  text-align: left;
+}
+.donate-page #donate-btn {
+  height: 100px;
+  width: 435px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 50px;
+  border: 2px solid #990000;
+  background-color: #990000;
+  color: #FFFFFF;
+  font-family: "Roboto", sans-serif;
+  font-size: 70px;
   font-weight: bold;
   cursor: pointer;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  margin: 1rem 0 1.5rem 0;
-  padding: 0.75rem 2rem;
 }
-
-#donate-btn:hover {
-  background-color: var(--light);
-  color: var(--primary);
+.donate-page #donate-btn:hover {
+  background-color: #FFFFFF;
+  color: #990000;
   -webkit-animation: bounce 0.75s ease-in-out infinite alternate;
           animation: bounce 0.75s ease-in-out infinite alternate;
 }

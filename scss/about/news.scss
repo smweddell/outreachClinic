@@ -6,13 +6,13 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #990000;
+  background-color: $red;
 
   .news-title {
     font-size: 70px;
-    font-family: "Roboto", sans-serif;
+    font-family: $font;
     font-weight: bold;
-    color: #fff;
+    color: $white;
     margin-bottom: 50px;
   }
 
@@ -32,24 +32,24 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: $white;
   }
 
   .more-title {
     font-size: 50px;
-    font-family: "Roboto", sans-serif;
+    font-family: $font;
     font-weight: bold;
-    color: #990000;
+    color: $red;
   }
 
   .more-btn {
     width: 300px;
     height: 50px;
     font-size: 30px;
-    font-family: "Roboto", sans-serif;
+    font-family: $font;
     font-weight: bold;
-    background-color: #990000;
-    color: #fff;
+    background-color: $red;
+    color: $white;
     border-radius: 50px;
     border: none;
   }
@@ -82,14 +82,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #fff;
+    background-color: $white;
   }
 
   .article-title {
     font-size: 30px;
-    font-family: "Roboto", sans-serif;
+    font-family: $font;
     font-weight: bold;
-    color: #990000;
+    color: $red;
     padding: 0 20px 0 20px;
   }
 
@@ -97,10 +97,10 @@
     width: 200px;
     height: 50px;
     font-size: 30px;
-    font-family: "Roboto", sans-serif;
+    font-family: $font;
     font-weight: bold;
-    background-color: #990000;
-    color: #fff;
+    background-color: $red;
+    color: $white;
     border-radius: 50px;
     border: none;
   }

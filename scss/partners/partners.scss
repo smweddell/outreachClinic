@@ -9,7 +9,7 @@
 
   .partners-header {
     font-size: 70px;
-    font-family: "Roboto", sans-serif;
+    font-family: $font;
     font-weight: bold;
     margin: 50px 0 50px 0;
     text-align: center;
@@ -18,7 +18,7 @@
   .partners-btn {
     width: 500px;
     height: 57px;
-    background-color: #990000;
+    background-color: $red;
     border: none;
     border-radius: 50px;
     display: flex;
@@ -30,10 +30,10 @@
   }
 
   .partners-btn-txt {
-    color: #fff;
+    color: $white;
     font-size: 40px;
     font-weight: bold;
-    font-family: "Roboto", sans-serif;
+    font-family: $font;
     text-align: center;
   }
 }

@@ -2,7 +2,7 @@
 .visit-us {
   height: 700px;
   width: 100%;
-  background-color: #eeedeb;
+  background-color: $light-grey;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,14 +17,14 @@
   }
 
   .visitus-header {
-    color: #990000;
-    font-family: "Roboto", sans-serif;
+    color: $red;
+    font-family: $font;
     font-size: 70px;
     font-weight: bold;
   }
 
   .visitus-pi {
-    font-family: "Roboto", sans-serif;
+    font-family: $font;
     font-size: 30px;
     font-weight: bold;
   }
