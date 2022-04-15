@@ -104,13 +104,14 @@ footer {
   height: 980px;
   background-image: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.7)), to(rgba(255, 255, 255, 0.7))), url(../../assets/clinic-images/clinic.jpg);
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(../../assets/clinic-images/clinic.jpg);
+  padding: 0 50px 0 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -118,21 +119,60 @@ footer {
       -ms-flex-pack: center;
           justify-content: center;
 }
-.herobanner .cliniclogo {
+.herobanner .welcome {
+  width: 1500px;
+  height: 225px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.herobanner .welcome .cliniclogo {
   width: 224px;
   height: 100%;
   margin-right: 30px;
 }
-.herobanner .welcometext {
+.herobanner .welcome .welcometext {
   color: #000000;
   font-family: "Roboto", sans-serif;
-  font-size: 70px;
+  font-size: 60px;
   font-weight: bold;
+}
+.herobanner .partner-logos {
+  width: 1500px;
+  height: 300px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.herobanner .partner-logos .logo {
+  width: 300px;
+  height: 100%;
 }
 
 .services {
   width: 100%;
-  height: 1080px;
+  height: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -440,7 +480,7 @@ footer {
 }
 
 .news {
-  height: 1100px;
+  height: 2500px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -458,8 +498,8 @@ footer {
   background-color: #990000;
   /* First row styling for newsletters and podcast */
   /* Second row styling for any articles */
-  /* Third row styling for any articles */
   /* Styling for each article section */
+  /* Third row styling for any articles */
 }
 .news .news-title {
   font-size: 70px;
@@ -519,7 +559,7 @@ footer {
 }
 .news .row2 {
   height: 300px;
-  width: 1400px;
+  width: 1500px;
   margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -532,22 +572,7 @@ footer {
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
 }
-.news .row3 {
-  height: 300px;
-  width: 1400px;
-  margin-top: 50px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-}
-.news .square {
+.news .article-square {
   height: 100%;
   width: 400px;
   display: -webkit-box;
@@ -570,7 +595,7 @@ footer {
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   color: #990000;
-  padding: 0 20px 0 20px;
+  padding: 20px 20px 20px 20px;
 }
 .news .read-btn {
   width: 200px;
@@ -582,6 +607,61 @@ footer {
   color: #FFFFFF;
   border-radius: 50px;
   border: none;
+}
+.news .row3 {
+  height: 350px;
+  width: 1500px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+.news .video-square {
+  height: 100%;
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #FFFFFF;
+}
+.news .video-title {
+  font-size: 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  color: #990000;
+  padding: 20px 20px 0 20px;
+}
+.news .row4 {
+  height: 400px;
+  width: 1500px;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .stories {
@@ -626,7 +706,7 @@ footer {
 }
 
 .research {
-  height: 100%;
+  height: 1080px;
   width: 1500px;
   padding: 0 50px 0 50px;
   display: -webkit-box;
@@ -675,7 +755,7 @@ footer {
   font-size: 70px;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin: 50px 0 50px 0;
   text-align: center;
 }
 
@@ -850,21 +930,21 @@ footer {
 }
 
 .partners-content {
-  width: 100%;
-  height: auto;
+  width: 1500px;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 0 50px 0 50px;
 }
 .partners-content .partners-header {
   font-size: 70px;
@@ -873,31 +953,40 @@ footer {
   margin: 50px 0 50px 0;
   text-align: center;
 }
-.partners-content .partners-btn {
-  width: 500px;
-  height: 57px;
-  background-color: #990000;
-  border: none;
-  border-radius: 50px;
+.partners-content .partner-img-banner {
+  width: 100%;
+  height: 300px;
+  margin-bottom: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  display: flex;
-  padding-top: 10px;
-  margin-bottom: 10px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
-.partners-content .partners-btn-txt {
+.partners-content .partner-img-banner .partner-img {
+  width: 400px;
+  height: 100%;
+}
+.partners-content .partner-info {
+  font-size: 30px;
+  font-family: "Roboto", sans-serif;
+}
+.partners-content .partners-btn {
+  width: 400px;
+  height: 60px;
+  background-color: #990000;
+  border: none;
+  border-radius: 50px;
+  margin-top: 50px;
   color: #FFFFFF;
   font-size: 40px;
   font-weight: bold;
   font-family: "Roboto", sans-serif;
-  text-align: center;
 }
 
 .donate-page {
