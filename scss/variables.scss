@@ -1,0 +1,10 @@
+// Styling variables
+$white: #FFFFFF;
+$black: #000000;
+$red: #990000;
+$light-grey: #EEEDEB;
+$font: "Roboto", sans-serif;
+$overlay-white: rgba(255,255,255,0.7);
+$gradient-white: linear-gradient(to right, $overlay-white, $overlay-white);
+$overlay-black: rgba(155,155,155,0.8);
+$gradient-black: linear-gradient(to right, $overlay-black, $overlay-black);

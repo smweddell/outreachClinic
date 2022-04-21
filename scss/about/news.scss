@@ -1,0 +1,134 @@
+// Clinic News Section
+.news {
+  height: 2500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: $red;
+
+  .news-title {
+    font-size: 70px;
+    font-family: $font;
+    font-weight: bold;
+    color: $white;
+    margin-bottom: 50px;
+  }
+
+  /* First row styling for newsletters and podcast */
+  .row {
+    height: 200px;
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .half {
+    height: 100%;
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $white;
+  }
+
+  .more-title {
+    font-size: 50px;
+    font-family: $font;
+    font-weight: bold;
+    color: $red;
+  }
+
+  .more-btn {
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    font-family: $font;
+    font-weight: bold;
+    background-color: $red;
+    color: $white;
+    border-radius: 50px;
+    border: none;
+  }
+
+  /* Second row styling for any articles */
+  .row2 {
+    height: 300px;
+    width: 1500px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  /* Styling for each article section */
+  .article-square {
+    height: 100%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $white;
+  }
+
+  .article-title {
+    font-size: 30px;
+    font-family: $font;
+    font-weight: bold;
+    color: $red;
+    padding: 20px 20px 20px 20px;
+  }
+
+  .read-btn {
+    width: 200px;
+    height: 50px;
+    font-size: 30px;
+    font-family: $font;
+    font-weight: bold;
+    background-color: $red;
+    color: $white;
+    border-radius: 50px;
+    border: none;
+  }
+
+  /* Third row styling for any articles */
+  .row3 {
+    height: 350px;
+    width: 1500px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .video-square {
+    height: 100%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $white;
+  }
+
+  .video-title {
+    font-size: 25px;
+    font-family: $font;
+    font-weight: bold;
+    color: $red;
+    padding: 20px 20px 0 20px;
+  }
+
+  .row4 {
+    height: 400px;
+    width: 1500px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
