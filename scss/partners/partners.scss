@@ -62,4 +62,15 @@
   //   font-family: $font;
   //   text-align: center;
   // }
+
+  .socialmedia {
+    width: 190px;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    .fa-inverse {
+      color: $red;
+    }
+  }
 }
