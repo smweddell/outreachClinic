@@ -1,0 +1,61 @@
+// Styling for images that are positioned on the left side of the webpage
+// Content on the right
+.odd {
+  background-color: $red;
+  height: 600px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+  .image-left {
+    width: 900px;
+    height: 100%;
+  }
+
+  .volunteer-info-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-right {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: $font;
+    color: $white;
+  }
+
+  .text-right {
+    padding: 0 30px 0 50px;
+    margin-bottom: 50px;
+    font-size: 30px;
+    font-family: $font;
+    color: $white;
+  }
+
+  .right-btn {
+    width: 250px;
+    height: 57px;
+    background-color: $white;
+    color: $red;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: $font;
+    border: none;
+    border-radius: 50px;
+  }
+
+  .socialmedia-right {
+    width: 190px;
+    height: 50px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+    .fa-inverse {
+      color: $white;
+    }
+  }
+}
