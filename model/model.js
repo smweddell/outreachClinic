@@ -1,5 +1,5 @@
 // Model - Contains Data
-export function getContent(viewPage) {
+function getContent(viewPage) {
   let path = "";
   if (viewPage.includes("/")) {
     path = `view/${viewPage}`;

@@ -172,7 +172,7 @@ footer {
 
 .services {
   width: 100%;
-  height: 1000px;
+  height: 900px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -201,7 +201,7 @@ footer {
 }
 .services .service-offer {
   width: 1500px;
-  height: 650px;
+  height: 350px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -223,16 +223,15 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
   border-radius: 50px;
   padding: 30px 30px 30px 30px;
-}
-.services .service-offer .service-circle .service-icon {
-  width: 100px;
-  height: 100px;
 }
 .services .service-offer .service-circle .fa-inverse {
   color: #990000;
@@ -701,7 +700,7 @@ footer {
 }
 
 .stories {
-  height: 400px;
+  height: 500px;
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -725,8 +724,8 @@ footer {
   margin-bottom: 50px;
 }
 .stories .story {
-  height: 80px;
-  width: 1300px;
+  height: 200px;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -737,8 +736,12 @@ footer {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Roboto", sans-serif;
+}
+.stories .story .story-individual {
+  height: 100%;
+  width: 400px;
 }
 
 .research {
@@ -1051,6 +1054,9 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-bottom: 50px;
   font-family: "Roboto", sans-serif;
 }
@@ -1088,7 +1094,6 @@ footer {
 .donate-page #donate-btn {
   height: 100px;
   width: 435px;
-  margin: 0 auto;
   margin-top: 50px;
   border-radius: 50px;
   border: 2px solid #990000;

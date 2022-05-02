@@ -1,12 +1,11 @@
 // Clinic Services Section
 .services {
   width: 100%;
-  height: 1000px;
+  height: 900px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  // background-image: url(../../assets/clinic-images/clinic-door.png);
   overflow: hidden;
   background-size: cover;
   background-repeat: no-repeat;
@@ -23,7 +22,7 @@
 
   .service-offer {
     width: 1500px;
-    height: 650px;
+    height: 350px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -34,14 +33,10 @@
       height: 100%;
       background-color: $white;
       display: flex;
+      align-items: center;
       flex-direction: column;
       border-radius: 50px;
       padding: 30px 30px 30px 30px;
-
-      .service-icon {
-        width: 100px;
-        height: 100px;
-      }
 
       .fa-inverse {
         color: $red;
