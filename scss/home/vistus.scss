@@ -1,0 +1,31 @@
+// Visit Us Section
+.visit-us {
+  height: 700px;
+  width: 100%;
+  background-color: $light-grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+
+  .visitus-division-sector {
+    height: 600px;
+    width: 1770px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .visitus-header {
+    color: $red;
+    font-family: $font;
+    font-size: 70px;
+    font-weight: bold;
+  }
+
+  .visitus-pi {
+    font-family: $font;
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
