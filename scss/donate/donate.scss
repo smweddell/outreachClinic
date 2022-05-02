@@ -6,6 +6,7 @@
   padding: 0 50px 0 50px;
   flex-direction: column;
   margin: 0 auto;
+  align-items: center;
   margin-bottom: 50px;
   font-family: $font;
 
@@ -40,7 +41,6 @@
   #donate-btn {
     height: 100px;
     width: 435px;
-    margin: 0 auto;
     margin-top: 50px;
     border-radius: 50px;
     border: 2px solid $red;

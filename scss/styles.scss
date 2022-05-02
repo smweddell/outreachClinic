@@ -1,30 +1,29 @@
 // Basic Styling
-@import 'variables.scss';
-@import 'structure.scss';
+@import "variables.scss";
+@import "structure.scss";
 
 // Nav and Footer Styling
-@import 'nav/nav.scss';
-@import 'footer/footer.scss';
+@import "nav/nav.scss";
+@import "footer/footer.scss";
 
 // Home Styling
-@import 'home/hero.scss';
-@import 'home/services.scss';
-@import 'home/vistus.scss';
+@import "home/hero.scss";
+@import "home/services.scss";
+@import "home/vistus.scss";
 
 // About Styling
-@import 'about/about.scss';
-@import 'about/faqAccordion.scss';
-@import 'about/news.scss';
-@import 'about/patient-story.scss';
-@import 'about/research.scss';
-@import 'about/archive.scss';
-
+@import "about/about.scss";
+@import "about/faqAccordion.scss";
+@import "about/news.scss";
+@import "about/volunteer-experience.scss";
+@import "about/research.scss";
+@import "about/archive.scss";
 
 // Volunteer and Partners Styling
-@import 'volunteer/volunteer.scss';
-@import 'volunteer/leftImage.scss';
-@import 'volunteer/rightImage.scss';
-@import 'partners/partners.scss';
+@import "volunteer/volunteer.scss";
+@import "volunteer/leftImage.scss";
+@import "volunteer/rightImage.scss";
+@import "partners/partners.scss";
 
 // Donate Styling
-@import 'donate/donate.scss';
+@import "donate/donate.scss";

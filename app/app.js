@@ -1,5 +1,4 @@
 import MODEL from "../model/model.js";
-import monthlyNews from "../json/newsletters.js";
 
 // Controller - Gets data based on Listener
 function initlisteners() {
@@ -11,31 +10,32 @@ function initlisteners() {
 
     MODEL.getContent(link);
 
-    // if (link == "archive/archive") {
-    //   $.get(monthlyNews, function (data) {
-    //     // monthlyLetters(data);
-    //     console.log(data);
-    //   });
-    // }
+    if (link == "archive/archive") {
+      monthlyLetters();
+    }
   });
 }
 
-// create a for each loop for newsletters
-// function monthlyLetters() {
-//   console.log(monthlyNews);
+// A for each loop for newsletters
+function monthlyLetters() {
+  $.getJSON("../data/newsletters.json", function (data) {
+    console.log(data);
 
-//   $.each(monthlyNews, function (idx, letters) {
-//     $(".archive").append(`
-//     <h2 class="newsletter-year">${letters.year}</h2>
-//     `);
-//   });
+    $.each(data.year, function (idx, letters) {
+      $(".archive").append(`
+  <h2 class="newsletter-year">${letters}</h2>
+  `);
 
-//   $.each(monthlyNews.year, function (idx, data) {
-//     $(".archive .allData").append(`
-//      <li>${data.month} <a href="${data.link}">${data.month} Newsletter</a></li>
-//      `);
-//   });
-// }
+      console.log(letters);
+    });
+
+    $.each(data.year.newsletters, function (idx, news) {
+      $(".archive .allData").append(`
+   <li>${news.month} <a href="${news.link}">${news.month} Newsletter</a></li>
+   `);
+    });
+  });
+}
 
 function initPage() {
   $.get("view/nav.html", function (nav) {
@@ -52,7 +52,7 @@ function initPage() {
   });
 }
 
-// create FAQ Accordion for the About Page
+// FAQ Accordion is in the About.html at the bottom of the page in a script tag
 
 $(document).ready(function () {
   initPage();

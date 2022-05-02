@@ -1,9 +1,9 @@
 <h1 class="archive-title">Monthly Newsletters</h1>
 
 <div class="archive">
-  <h2 class="newsletter-year">2022</h2>
+  <!-- <h2 class="newsletter-year">2022</h2> -->
   <ul class="allData">
-    <li>January: <a href="">January Newsletter</a></li>
+    <!-- <li>January: <a href="">January Newsletter</a></li>
     <li>February: <a href="">February Newsletter</a></li>
     <li>March: <a href="">March Newsletter</a></li>
     <li>April: <a href="">April Newsletter</a></li>
@@ -14,6 +14,22 @@
     <li>September: <a href="">September Newsletter</a></li>
     <li>October: <a href="">October Newsletter</a></li>
     <li>November: <a href="">November Newsletter</a></li>
-    <li>December: <a href="">December Newsletter</a></li>
+    <li>December: <a href="">December Newsletter</a></li> -->
   </ul>
 </div>
+
+<!-- <script>
+  $.getJSON("../../data/newsletters.json", function (data) {
+    console.log(data);
+
+    $.each(data.year, function (idx, letters) {
+      $(".archive").append(`
+  <h2 class="newsletter-year">${letters.year}</h2>
+  `);
+
+      $(".archive .allData").append(`
+   <li>${letters.newsletters.month} <a href="${letters.newsletters.link}">${letters.newsletters.month} Newsletter</a></li>
+   `);
+    });
+  });
+</script> -->
